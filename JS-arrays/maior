@@ -1,0 +1,9 @@
+let lista = [2, 5, 8, 10, 6, 11, 3];
+let maior = [];
+
+for (let i = 0; i < lista.length;i++) {
+    if (lista[i] > maior) {
+        maior = lista[i];
+        
+    }
+}console.log(maior); // Retoro maior elemento da array é o = 11
