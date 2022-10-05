@@ -28,7 +28,7 @@
                              //9       //6      // Resultado
 //console.log(multiplica(soma(4, 5), soma(3, 3)))// = 54
 
-//console.log(multiplica(soma(4, 5)))
+//console.log(multiplica(soma(4, 5))) // Retorno = NaN
 
 //Definindo valor padrão para um argumento
 
@@ -36,7 +36,7 @@ function soma(numero1, numero2) {
   return numero1 + numero2;
 }
 
-function multiplica(numero1 = 1, numero2 = 1) {
+function multiplica(numero1 = 1, numero2 = 1) { //parametro = 1 para definir um valor padrão para um parametro. numero1 = 9, numero2 = 1
     return numero1 * numero2;
 }
-console.log(multiplica(soma(4, 5)))
+console.log(multiplica(soma(4, 5))) //Retorno = 9
