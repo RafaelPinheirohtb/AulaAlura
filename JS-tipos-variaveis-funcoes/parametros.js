@@ -26,7 +26,7 @@
 //    return numero1 * numero2;
 //}
                              //9       //6      // Resultado
-//console.log(multiplica(soma(4, 5), soma(3, 3)))// = 56
+//console.log(multiplica(soma(4, 5), soma(3, 3)))// = 54
 
 //console.log(multiplica(soma(4, 5)))
 
